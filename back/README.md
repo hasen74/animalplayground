@@ -1,7 +1,3 @@
-# Groupe de solano_b et bouvie_l 989234
-
->## Name of the project: 
->
 >**Animal Playground**
 >
 >## Description of the project:
