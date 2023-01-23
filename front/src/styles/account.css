@@ -1,0 +1,110 @@
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#register {
+  flex-direction: column;
+  text-align: center;
+}
+
+#loginForm,
+#register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#login ul,
+#register ul {
+  margin: 0;
+  padding: 0;
+}
+
+#login li,
+#register li {
+  list-style: none;
+}
+
+#login input,
+#register input {
+  width: min-content;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+}
+
+#login button,
+#register button {
+  border: none;
+  padding: 0;
+  font-family: fantasy;
+}
+
+#loginForm button:hover,
+#register button:hover {
+  color: white;
+  background-color: black;
+}
+
+#btn-register,
+#btn-return {
+  font-size: large;
+}
+
+#btn-register {
+  color: red;
+}
+
+#btn-register:hover,
+#btn-return:hover {
+  color: white;
+  background-color: red;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Arial;
+}
+
+#accountTitle {
+  font-family: Copperplate, fantasy;
+  margin-bottom: 10px;
+}
+
+#userInfo {
+  display: inline-grid;
+  grid-template-rows: auto auto;
+  grid-template-areas: 'fieldName fieldInfo';
+}
+
+#userInfo p {
+  margin-top: 0;
+}
+
+#fieldName {
+  grid-area: fieldName;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+#fieldInfo {
+  grid-area: fieldInfo;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#btn-orderHistory {
+  font-size: large;
+}

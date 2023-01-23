@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  padding: 5px;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 20% auto 5%;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  box-sizing: border-box;
+  font-family: 'Copperplate', fantasy;
+}
+
+#header {
+  grid-area: header;
+  display: inline-grid;
+  grid-template-columns: fit-content() fit-content() fit-content();
+  grid-template-areas: 'logo motto nav';
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+  padding: 0;
+}
+
+#logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  object-fit: contain;
+  width: auto;
+  height: 10vh;
+}
+
+#motto {
+  display: flex;
+  justify-content: center;
+  color: #b10508;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+}
+
+#nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
+#links {
+  list-style-type: none;
+  margin: 0px;
+  align-items: center;
+}
+
+#links li {
+  float: right;
+}
+
+#links li a {
+  display: flex;
+  width: 90px;
+  height: 60px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: green;
+}
+
+#links li a:hover {
+  background-color: green;
+  border-color: green;
+  color: white;
+  border-radius: 60px;
+}
+
+button {
+  width: 130px;
+  height: 30px;
+  margin: 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+#footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+  font-size: small;
+  font-family: arial;
+}
+
+#btn-admin {
+  color: black;
+  text-decoration: none;
+}

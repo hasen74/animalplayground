@@ -1,0 +1,82 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.categories button {
+  border-right: solid #855f35;
+  border-left: solid #855f35;
+  color: #855f35;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0;
+  font-family: 'Jazz LET', fantasy, sans-serif;
+  font-size: large;
+}
+
+.categories button:hover {
+  color: white;
+  background-color: #855f35;
+  border: none;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: 'Trebuchet', sans-serif;
+}
+
+.items {
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 20%;
+  padding: 5px;
+  border-bottom: solid #855f35;
+  border-top: solid #855f35;
+}
+
+.items button {
+  display: inline-block;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.items button:hover {
+  color: black;
+  background-color: white;
+  padding: 0;
+}
+
+.items input {
+  border: none;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 10px;
+}
+
+.titles {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.product-image {
+  height: 20vh;
+  width: auto;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: bold;
+}

@@ -1,0 +1,6 @@
+node_modules/
+build/
+src/front/test
+*.env
+*.mwb
+package-lock.json

@@ -1,0 +1,40 @@
+#cart-page {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    'cart'
+    'payment';
+  gap: 50px;
+}
+
+#cart-child,
+#payment {
+  grid-area: cart;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#clear {
+  grid-area: clear;
+  text-align: center;
+}
+
+#deleteItem {
+  grid-area: deleteItem;
+}
+
+#payment {
+  grid-area: payment;
+}
+
+#cart-page button {
+  width: fit-content;
+}
+
+#btn-payment {
+  font-family: fantasy;
+  font-size: larger;
+  border: none;
+}
