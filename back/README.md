@@ -44,5 +44,3 @@
 >- For GET requests on index front page : leave the ID fields of the 'show' menu blank if you wish to GET ALL rows.  
 
 >Et voilà !
->
->## Thank you for reading.
