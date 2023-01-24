@@ -24,10 +24,7 @@ The API features a **users' roles system** to control access rights.
 Access to the **admin** page is only granted to admins.
 
 Once on the page you can add a product to the catalogue, or delete it by ID.
-A sample admin account can be accessed with the following credentials : 
-
-email : carra_c@etna-alternance.net 
-password: endofquest
+Ask us for a sample admin account credentials.
 
 Enjoy !
 Loïc Bouvier & Benjamin Solano
