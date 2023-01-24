@@ -10,7 +10,6 @@
     "init": "ts-node ./src/database/seeders/initialisation.ts",
     "server-start": "ts-node ./src/server.ts",
     "server-kill": "sudo lsof -i:3000",
-    "pm-login": "postman login --with-api-key PMAK-6351366a09c2f5280649c616-9fdaeeb4f5c07ef9e5b71446fc5840d3af && postman collection run 23956523-f859da83-2db8-416f-9ff5-f44db51bec35",
     "pm-run": "postman collection run 23956523-f859da83-2db8-416f-9ff5-f44db51bec35",
     "dev": "nodemon",
     "start": "node build/server.js",

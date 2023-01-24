@@ -38,8 +38,6 @@
 >- **users** can only perform get requests.
 >- **admins** can perform all CRUD operations. Get requests on the Users table will also display hashed password and users' role.
 >
->If you have previously seeded the database you can login with **carra_c@etna-alternance.net** and password _endofquest_ to access admin mode.
->
 >### CRUD Testing:
 >
 >Use Postman or the database php page to perform all the CRUD operations.
